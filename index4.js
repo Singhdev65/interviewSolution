@@ -1,4 +1,4 @@
-let name = document.getElementsByName('firstname');
+let name = document.getElementsByName('firstname').value;
 let checked = document.getElementsByName('checkme');
 
 function formCheck(){
